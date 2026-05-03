@@ -14,5 +14,5 @@ class Login:
             self.driver.locator(Loc.input_pass).fill(password)
 
     def click_submit(self):
-        with allure.step('Klik submit'):
+        with allure.step('Click Submit Button'):
             self.driver.locator(Loc.btn_submit).click()

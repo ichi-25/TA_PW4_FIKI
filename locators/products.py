@@ -1,2 +1,11 @@
 class Loc:
     txt_usrnm = '//span[@class="user-name"]'
+    add_product_btn = '//button[@data-testid="add-product-button"]'
+    add_product_name = 'input[id="name"]'
+    add_product_price = 'input[id="price"]'
+    add_product_stock = 'input[id="stock"]'
+    add_product_cat = 'select[id="category"]'
+    add_product_desc = 'textarea[id="description"]'
+    submit_product_btn = '//button[@data-testid="submit-button"]'
+    product_row = 'tr'
+    del_product_btn = '//button[@class="action-btn delete"]'
